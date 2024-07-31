@@ -20,6 +20,7 @@
 		A0D153262C5AF262006A5678 /* SampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D153252C5AF262006A5678 /* SampleTableViewController.swift */; };
 		A0D153282C5AF64D006A5678 /* SampleSwitchViewContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D153272C5AF64D006A5678 /* SampleSwitchViewContorller.swift */; };
 		A0D1532A2C5AF70F006A5678 /* SampleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D153292C5AF70F006A5678 /* SampleButtonViewController.swift */; };
+		A0D1532E2C5AFA62006A5678 /* ObserverExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D1532D2C5AFA62006A5678 /* ObserverExampleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		A0D153252C5AF262006A5678 /* SampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewController.swift; sourceTree = "<group>"; };
 		A0D153272C5AF64D006A5678 /* SampleSwitchViewContorller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwitchViewContorller.swift; sourceTree = "<group>"; };
 		A0D153292C5AF70F006A5678 /* SampleButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleButtonViewController.swift; sourceTree = "<group>"; };
+		A0D1532D2C5AFA62006A5678 /* ObserverExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverExampleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		A0D153222C5AEFFE006A5678 /* Practice3 */ = {
 			isa = PBXGroup;
 			children = (
+				A0D1532D2C5AFA62006A5678 /* ObserverExampleViewController.swift */,
 			);
 			path = Practice3;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0D153282C5AF64D006A5678 /* SampleSwitchViewContorller.swift in Sources */,
+				A0D1532E2C5AFA62006A5678 /* ObserverExampleViewController.swift in Sources */,
 				A0D153262C5AF262006A5678 /* SampleTableViewController.swift in Sources */,
 				A0D153082C5A717F006A5678 /* ViewController.swift in Sources */,
 				A0D153042C5A717F006A5678 /* AppDelegate.swift in Sources */,
