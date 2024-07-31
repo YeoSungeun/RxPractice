@@ -18,6 +18,8 @@
 		A0D153202C5AEED5006A5678 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0D1531F2C5AEED5006A5678 /* RxSwift */; };
 		A0D153242C5AF049006A5678 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D153232C5AF049006A5678 /* PickerViewController.swift */; };
 		A0D153262C5AF262006A5678 /* SampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D153252C5AF262006A5678 /* SampleTableViewController.swift */; };
+		A0D153282C5AF64D006A5678 /* SampleSwitchViewContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D153272C5AF64D006A5678 /* SampleSwitchViewContorller.swift */; };
+		A0D1532A2C5AF70F006A5678 /* SampleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D153292C5AF70F006A5678 /* SampleButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		A0D153112C5A7180006A5678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0D153232C5AF049006A5678 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
 		A0D153252C5AF262006A5678 /* SampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewController.swift; sourceTree = "<group>"; };
+		A0D153272C5AF64D006A5678 /* SampleSwitchViewContorller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwitchViewContorller.swift; sourceTree = "<group>"; };
+		A0D153292C5AF70F006A5678 /* SampleButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 			children = (
 				A0D153232C5AF049006A5678 /* PickerViewController.swift */,
 				A0D153252C5AF262006A5678 /* SampleTableViewController.swift */,
+				A0D153272C5AF64D006A5678 /* SampleSwitchViewContorller.swift */,
+				A0D153292C5AF70F006A5678 /* SampleButtonViewController.swift */,
 			);
 			path = Practice2;
 			sourceTree = "<group>";
@@ -175,11 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D153282C5AF64D006A5678 /* SampleSwitchViewContorller.swift in Sources */,
 				A0D153262C5AF262006A5678 /* SampleTableViewController.swift in Sources */,
 				A0D153082C5A717F006A5678 /* ViewController.swift in Sources */,
 				A0D153042C5A717F006A5678 /* AppDelegate.swift in Sources */,
 				A0D153242C5AF049006A5678 /* PickerViewController.swift in Sources */,
 				A0D153062C5A717F006A5678 /* SceneDelegate.swift in Sources */,
+				A0D1532A2C5AF70F006A5678 /* SampleButtonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
