@@ -13,6 +13,11 @@
 		A0D1530B2C5A717F006A5678 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A0D1530A2C5A717F006A5678 /* Base */; };
 		A0D1530D2C5A7180006A5678 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0D1530C2C5A7180006A5678 /* Assets.xcassets */; };
 		A0D153102C5A7180006A5678 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = A0D1530F2C5A7180006A5678 /* Base */; };
+		A0D1531B2C5AEEAB006A5678 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = A0D1531A2C5AEEAB006A5678 /* SnapKit */; };
+		A0D1531E2C5AEED5006A5678 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = A0D1531D2C5AEED5006A5678 /* RxCocoa */; };
+		A0D153202C5AEED5006A5678 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A0D1531F2C5AEED5006A5678 /* RxSwift */; };
+		A0D153242C5AF049006A5678 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D153232C5AF049006A5678 /* PickerViewController.swift */; };
+		A0D153262C5AF262006A5678 /* SampleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D153252C5AF262006A5678 /* SampleTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,8 @@
 		A0D1530C2C5A7180006A5678 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0D1530F2C5A7180006A5678 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0D153112C5A7180006A5678 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0D153232C5AF049006A5678 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		A0D153252C5AF262006A5678 /* SampleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +38,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D153202C5AEED5006A5678 /* RxSwift in Frameworks */,
+				A0D1531E2C5AEED5006A5678 /* RxCocoa in Frameworks */,
+				A0D1531B2C5AEEAB006A5678 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +66,8 @@
 		A0D153022C5A717F006A5678 /* RxPractice */ = {
 			isa = PBXGroup;
 			children = (
+				A0D153222C5AEFFE006A5678 /* Practice3 */,
+				A0D153212C5AEFF6006A5678 /* Practice2 */,
 				A0D153032C5A717F006A5678 /* AppDelegate.swift */,
 				A0D153052C5A717F006A5678 /* SceneDelegate.swift */,
 				A0D153072C5A717F006A5678 /* ViewController.swift */,
@@ -65,6 +77,22 @@
 				A0D153112C5A7180006A5678 /* Info.plist */,
 			);
 			path = RxPractice;
+			sourceTree = "<group>";
+		};
+		A0D153212C5AEFF6006A5678 /* Practice2 */ = {
+			isa = PBXGroup;
+			children = (
+				A0D153232C5AF049006A5678 /* PickerViewController.swift */,
+				A0D153252C5AF262006A5678 /* SampleTableViewController.swift */,
+			);
+			path = Practice2;
+			sourceTree = "<group>";
+		};
+		A0D153222C5AEFFE006A5678 /* Practice3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Practice3;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +111,11 @@
 			dependencies = (
 			);
 			name = RxPractice;
+			packageProductDependencies = (
+				A0D1531A2C5AEEAB006A5678 /* SnapKit */,
+				A0D1531D2C5AEED5006A5678 /* RxCocoa */,
+				A0D1531F2C5AEED5006A5678 /* RxSwift */,
+			);
 			productName = RxPractice;
 			productReference = A0D153002C5A717F006A5678 /* RxPractice.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +144,10 @@
 				Base,
 			);
 			mainGroup = A0D152F72C5A717F006A5678;
+			packageReferences = (
+				A0D153192C5AEEAB006A5678 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				A0D1531C2C5AEED5006A5678 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = A0D153012C5A717F006A5678 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,8 +175,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D153262C5AF262006A5678 /* SampleTableViewController.swift in Sources */,
 				A0D153082C5A717F006A5678 /* ViewController.swift in Sources */,
 				A0D153042C5A717F006A5678 /* AppDelegate.swift in Sources */,
+				A0D153242C5AF049006A5678 /* PickerViewController.swift in Sources */,
 				A0D153062C5A717F006A5678 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +410,43 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A0D153192C5AEEAB006A5678 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+		A0D1531C2C5AEED5006A5678 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A0D1531A2C5AEEAB006A5678 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0D153192C5AEEAB006A5678 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		A0D1531D2C5AEED5006A5678 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0D1531C2C5AEED5006A5678 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		A0D1531F2C5AEED5006A5678 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A0D1531C2C5AEED5006A5678 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A0D152F82C5A717F006A5678 /* Project object */;
 }
