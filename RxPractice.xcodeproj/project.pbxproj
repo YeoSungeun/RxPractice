@@ -21,6 +21,7 @@
 		A0D153282C5AF64D006A5678 /* SampleSwitchViewContorller.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D153272C5AF64D006A5678 /* SampleSwitchViewContorller.swift */; };
 		A0D1532A2C5AF70F006A5678 /* SampleButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D153292C5AF70F006A5678 /* SampleButtonViewController.swift */; };
 		A0D1532E2C5AFA62006A5678 /* ObserverExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D1532D2C5AFA62006A5678 /* ObserverExampleViewController.swift */; };
+		A0D153312C5AFC9A006A5678 /* AddingNumbersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D153302C5AFC9A006A5678 /* AddingNumbersViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		A0D153272C5AF64D006A5678 /* SampleSwitchViewContorller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwitchViewContorller.swift; sourceTree = "<group>"; };
 		A0D153292C5AF70F006A5678 /* SampleButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleButtonViewController.swift; sourceTree = "<group>"; };
 		A0D1532D2C5AFA62006A5678 /* ObserverExampleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverExampleViewController.swift; sourceTree = "<group>"; };
+		A0D153302C5AFC9A006A5678 /* AddingNumbersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddingNumbersViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 		A0D153022C5A717F006A5678 /* RxPractice */ = {
 			isa = PBXGroup;
 			children = (
+				A0D1532F2C5AFC3C006A5678 /* Numbers */,
 				A0D153222C5AEFFE006A5678 /* Practice3 */,
 				A0D153212C5AEFF6006A5678 /* Practice2 */,
 				A0D153032C5A717F006A5678 /* AppDelegate.swift */,
@@ -102,6 +105,14 @@
 				A0D1532D2C5AFA62006A5678 /* ObserverExampleViewController.swift */,
 			);
 			path = Practice3;
+			sourceTree = "<group>";
+		};
+		A0D1532F2C5AFC3C006A5678 /* Numbers */ = {
+			isa = PBXGroup;
+			children = (
+				A0D153302C5AFC9A006A5678 /* AddingNumbersViewController.swift */,
+			);
+			path = Numbers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +199,7 @@
 				A0D1532E2C5AFA62006A5678 /* ObserverExampleViewController.swift in Sources */,
 				A0D153262C5AF262006A5678 /* SampleTableViewController.swift in Sources */,
 				A0D153082C5A717F006A5678 /* ViewController.swift in Sources */,
+				A0D153312C5AFC9A006A5678 /* AddingNumbersViewController.swift in Sources */,
 				A0D153042C5A717F006A5678 /* AppDelegate.swift in Sources */,
 				A0D153242C5AF049006A5678 /* PickerViewController.swift in Sources */,
 				A0D153062C5A717F006A5678 /* SceneDelegate.swift in Sources */,
